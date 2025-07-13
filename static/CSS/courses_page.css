@@ -1,0 +1,182 @@
+body{
+    color: #000407;
+    background-color: #79031D;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    background-color: white;
+    top:0;
+    position: sticky;
+    overflow:hidden;
+}
+
+th{
+Font-size:30px;}
+
+#logo{
+    height:100px;
+    float: left;
+    background-color: transparent;
+}
+
+li{
+    display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    text-decoration:none;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+a[href='courses_page.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+a:visited li{
+ display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    padding-bottom:47px;
+    padding-top:47px;
+    text-decoration:none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: #edb518 ;
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer{
+    background-color: white;
+}
+
+h4{
+    text-align:center;
+}
+
+th{
+    padding: 100px;
+    text-shadow: #79031D 2px 0.1px;
+}
+
+.links{
+    text-decoration: none;
+    color: #edb518;
+}
+
+.links:hover{
+    color: white;
+    text-shadow: #edb518 2px 0.1px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #79031D;
+}
+
+#aqua_cell{
+    background-image: url(aqua.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    transition:transform 0.2s ease;
+    /*border-right: #79031D solid 50px;
+    border-bottom: #79031D solid 50px;*/
+}
+
+#aqua_cell:hover, #cycling_cell:hover, #boxing_cell:hover,#pilates_cell:hover{
+    transform:scale(1.2);
+}
+
+#cycling_cell{
+    background-image: url(people-doing-indoor-cycling.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    transition:transform 0.2s ease;
+    /*border-left: #79031D solid 50px;
+    border-bottom: #79031D solid 50px;*/
+}
+
+#boxing_cell{
+    background-image:url(boxinggloves.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    transition:transform 0.2s ease;
+    /* border-right: #79031D solid 50px;
+    border-top: #79031D solid 50px;*/
+}
+
+#pilates_cell{
+    background-image:url(doing_pilates.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    transition:transform 0.2s ease;
+    /*  border-left: #79031D solid 50px;
+    border-top: #79031D solid 50px;*/
+}
+
+#footer{
+    background-color: white;    
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+#footer h6 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+#footer a[class] {
+    background-color: white;
+    margin: 0 0.1%;
+    color: #79031D;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+#footer a:visited{
+Color:#79031D;}
+#footer a:link{
+Color:black;}
+#socials {
+    margin-top: 0.3%;
+    position: relative;
+    left: 47.55%;
+}

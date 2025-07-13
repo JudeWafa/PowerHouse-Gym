@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #000407;
+    background-color: #79031D;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*or fantasy*/
+}
+
+#header{
+    background-color: white;
+    top:0;
+    position: sticky;
+    overflow:hidden;
+}
+
+#logo{
+    height:100px;
+    float: left;
+    background-color: transparent;
+}
+
+li{
+    display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    text-decoration:none;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+a[href='plans.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+a:visited li{
+ display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    padding-bottom:47px;
+    padding-top:47px;
+    text-decoration:none;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: #edb518 ;
+}
+
+h4{
+    text-align:center;
+}
+
+th, td {
+    padding: 10px;
+    margin: 30px; 
+}
+Table{
+Width:80%;
+Margin:auto;
+Font-size:25px;}
+
+table, th, td {
+    border: 1px solid #edb518;
+    background-color:white;
+    border-collapse : collapse;
+    border-spacing : 10px;
+}
+
+th:hover{
+    background-color:#79031D;
+    color:#edb518;
+}
+
+th.head{
+    background-color: black;
+    color:#edb518;
+} 
+
+p.b{
+    display: inline-block;
+    color:#edb518;    
+    font-size: 20px;
+    font-style: italic;
+    border:solid;
+    background-color: black;
+} 
+
+p{
+    font-size: 18px;
+    color :white;
+    margin-top:0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}  
+
+p.b + p {
+    width: 90%;
+    margin-bottom: 20px;
+    Margin-left:1.5em;
+}
+P.b{
+Margin-left:0.7em;}
+#footer{
+    background-color: white;    
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+#footer h6 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+a[class] {
+    background-color: white;
+    margin: 0 0.1%;
+    color: #79031D;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#socials {
+    margin-top: 0.3%;
+    position: relative;
+    left: 47.55%;
+}
+h6 a:link{
+Color:black;}
+h6 a:visited{
+Color:#79031D;}

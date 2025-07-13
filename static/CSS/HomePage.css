@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    color: #000407;
+    background-color: black;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*or fantasy*/
+}
+
+#header{
+     transition:background-color,0.7s;
+    background-color: transparent;
+    top:0;
+    position: sticky;
+    overflow:hidden;
+}
+#header.scrolled{
+    transition:background-color,0.7s;
+    background-color: white;
+    
+}
+#logo1 {
+    height:100px;
+    float: left;
+    background-color: transparent;
+}
+
+li{
+    display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    text-decoration:none;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+a[href='HomePage.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: #edb518 ;
+    /*Text-shadow:0.07em 0 black,-0.07em 0 black,0 0.07em black,0 -0.07em black;*/
+    font-family:"times new roman";
+    font-size:100px;
+}
+
+#bg{
+    background-image:url(bgHomePage.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#center{
+    text-align:center;
+}
+
+#footer{
+    color:white;
+}
+
+
+h4{
+    text-align:center;
+}
+
+#motto{
+    text-align:center;
+    Font-size:35px;
+    Color:white;
+    font-family:"sans serif";
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+#footer h6 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+a[class] {
+    background-color: black;
+    margin: 0 0.1%;
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#socials {
+    margin-top: 0.3%;
+   Text-align:center;
+}
+
+#footer a:link{
+    color:white;
+    text-decoration: none;
+}
+#footer a:visited{
+color:#79031D}
+
+
+a:visited li{
+ display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    padding-bottom:47px;
+    padding-top:47px;
+    text-decoration:none;
+}
+
+
+#colorText2.changeColor,#colorText1{
+Transition:color,1s;
+color:#79031D;
+}
+#colorText1.changeColor,#colorText2{
+Transition:color,1s;
+color:white;}
+

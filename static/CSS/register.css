@@ -1,0 +1,393 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen {
+body{
+    color: #000407;
+    background-image: url(register.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*or fantasy*/
+}
+
+.other {
+    display: none;
+}
+
+#header{
+    background-color: white;
+    top:0;
+    position: sticky;
+    overflow:hidden;
+}
+
+#logo{
+    height:100px;
+    float: left;
+    background-color: transparent;
+}
+
+li {
+    
+    display: inline;
+    float: right;
+    padding:40px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: white;
+    top: 2px;
+}
+
+#header li {
+    color: #edb518;
+}
+
+a li {
+    text-decoration: none;
+}
+
+
+a[href='register.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+#header li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+
+a:visited li{
+    display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    padding-bottom:47px;
+    padding-top:47px;
+    text-decoration:none;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white ;
+}
+
+#footer{
+    background-color: white;    
+}
+
+
+h4{
+    text-align:center;
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+#footer h6 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+a[class] {
+    background-color: white;
+    margin: 0 0.1%;
+    color: #79031D;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#socials {
+    margin-top: 0.3%;
+    position: relative;
+    left: 48.25%;
+}
+
+#form {
+    margin-left:27%;
+    width: 45%;
+    color: #edb518;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+label, p {
+    font-weight: bold;
+    padding-left: 3%;
+    padding-right: 1%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+input {
+    margin-top: 15px;
+    border-width: 1px;
+    height: 22px;
+    border-radius: 7px;
+    left: 20%;
+}
+
+hr {
+    margin: 20px auto;
+    width: 95%;
+}
+
+.top {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+textarea {
+    margin-top: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    width:70%;
+    height:80px;
+}
+
+#fName {
+    width:40%;
+}
+
+#email {
+    width: 30%;
+}
+
+#number, #street, #gender {
+    margin-top: 15px;
+}
+
+select {
+    width: 25%;
+    height: 25px;
+    border-radius: 7px;
+}
+
+label[for="more"] {
+    position: relative;
+    top:-70px;
+}
+
+.courses {
+    margin-top:0;
+    padding-top: 0;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #79031D;
+}
+
+input[type="checkbox"] {
+    margin-left: 3%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+input[type="checkbox"] + label {
+    font-weight: normal;
+    color: black;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input[type="submit"], input[type="reset"] {
+
+    font-weight: bold;
+    background-color: #edb518;
+    border-color: transparent;
+    border-radius: 10px;
+    width:80px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#buttons {
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h6 a:link{
+    Color:black;
+}
+h6 a:visited{
+    Color:#79031D;
+}
+
+#message {
+    position: relative;
+    top: -20px;
+    color: #79031D;
+    font-weight: bold;
+    font-size: 15px;
+    top: -1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: black;
+}
+
+}
+
+/*  for tablets  */
+@media screen and (max-device-width: 960px) {
+    
+    .desktop, .desktop li {
+        display: none;
+        padding: 0%;
+        margin: 0;
+    }
+   
+    #header {
+        width: 100%;
+    }
+
+    #logo {
+        position: relative;
+        width: 200px;
+        height: auto;
+        float: none;
+        left: 35%;
+        display: block;
+    }
+    #buttons{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #header ul {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        text-align: center;
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #header li {
+        float: none;
+        width:100%;
+        font-size: 120%;
+    }
+
+    a[href='register.php'] li{
+     border-bottom:3px solid #edb518;
+    }
+
+#header li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        color:white;
+    }
+
+    #form {
+        position: relative;
+        width: 91.66%;
+        margin-left: 0;
+        left: 4.5%;
+    }
+
+    #phone {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    #email {
+        width: 30%;
+    }
+
+    #phone {
+        position: relative;
+        left:34.7%;
+    }
+}
+
+/*  for phones  */
+@media screen and (max-device-width: 570px) {
+
+    .desktop {
+        display: none;
+    }
+
+   #buttons {
+    text-align:  center;
+    margin-bottom: 10px;
+   }
+
+   #plan {
+    width: 50%;
+   }
+
+   #header li {
+    float: none;
+    width:100%;
+    font-size: 120%;
+    }
+    a[href='register.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+    #header li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+
+    #logo {
+        left: 28%;
+    }
+
+    #header li{
+        padding:5%;
+    }
+
+}
