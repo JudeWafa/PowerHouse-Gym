@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #000407;
+    background-color: #79031D;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    background-color: white;
+    top:0;
+    position: sticky;
+    overflow:hidden;
+}
+
+#logo{
+    height:100px;
+    float: left;
+    background-color: transparent;
+}
+
+li{
+    display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    text-decoration:none;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+a[href='courses_page.php'] li{
+     border-bottom:3px solid #edb518;
+}
+
+li:hover{
+   text-shadow: 1px 1px black ;
+   text-decoration:none;
+}
+a:visited li{
+ display: inline;
+    float:right;
+    padding: 40px;
+    background-color: transparent;
+    top: 2px;
+    color:#edb518;
+    font-size:20px;
+    padding-bottom:47px;
+    padding-top:47px;
+    text-decoration:none;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: #edb518 ;
+}
+
+h4{
+    text-align:center;
+}
+
+#main h4 {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+#main h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p{
+    color: #edb518;
+    text-shadow: 3px 3px 5px #000407;
+    font-size: 24px;
+    padding: 150px;
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(intro-to-spinning-and-indoor-cycling.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#x{
+Text-align:center;}
+
+input{
+   
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:30px;
+    padding-right: 34px;
+    background-color: #edb518;
+    border: #edb518 1px solid;
+    border-radius: 5px;
+    font-size:30px;
+}
+
+input:hover{
+    background-color:#dba40f;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: white;    
+}
+
+h6{
+    text-align: center;
+}
+
+#address{
+    border-bottom: #79031D 2px solid;
+    padding-bottom: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+#footer h6 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+a[class] {
+    background-color: white;
+    margin: 0 0.1%;
+    color: #79031D;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#socials {
+    margin-top: 0.3%;
+    
+    text-align:center;
+}
+h6 a:link{
+Color:black;}
+h6 a:visited{
+Color:#79031D;}
+#about-coach-div
+{
+    display: none;
+   
+    background-color: white;
+   
+   
+}
+
+#coachinfo{
+    text-align: center;
+    color:#edb518;
+}
+#liam{
+   /* display: block;
+    margin-left: auto;
+  margin-right: auto;*/
+  float: right;
+
+  width: 27.84%;
+  border-radius:300px;
+}
+#learn-more{
+    text-align: center;
+    color: #000407;
+    margin-top: -3.75em;
+}
+#instructor{
+margin:0;
+}
